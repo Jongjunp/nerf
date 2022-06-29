@@ -4,9 +4,9 @@ channels:
     - conda-forge
 dependencies:
     - python=3.7
-    - pip
-    - cudatoolkit=10.0
-    - tensorflow-gpu==1.15
+    - pip:
+        - cudatoolkit=10.0
+        - tensorflow-gpu==1.15
     - numpy
     - matplotlib
     - imageio
